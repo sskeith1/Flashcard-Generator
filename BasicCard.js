@@ -21,13 +21,14 @@ var BasicCard = function(front, back) {
 	this.back = back;
 
 
-	var questionOne = new BasicCard("Is this the first question?", "Yes");
+	var bQuestionOne = new BasicCard("Is this the first question?", "Yes");
+	var bQuestionTwo = new BasicCard("Is this the second question?", "Yes");
+	var bQuestionThree = new BasicCard("Is this the fourth question?", "No");
 
-	console.log("This is the front: " + questionOne.front)
-	// console.log("This is the back: " + questionOne.back)
+	
 };
 
-
+console.log(BasicCard.front)
 
 
 module.exports = BasicCard;

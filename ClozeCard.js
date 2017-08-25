@@ -24,7 +24,13 @@
 //======================================================================
 
 var ClozeCard = function(text, cloze) {
-	
+	this.fullText = fullText;
+	this.partialText = partialText;
+	this.clozeText = clozeText;
+
+	var cQuestionOne = new ClozeCard("Is this the first question?", "Yes");
+	var cQuestionTwo = new ClozeCard("Is this the second question?", "Yes");
+	var cQuestionThree = new ClozeCard("Is this the fourth question?", "No");
 }
 
 
